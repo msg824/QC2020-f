@@ -1,0 +1,45 @@
+// Alpha value
+$alpha: 0.3;
+$beta: 0.8;
+
+// default color
+$water:  rgb(0, 123, 255)  !default;
+$grape:  rgb(110, 65, 193) !default;
+$blood:  rgb(221, 53, 69)  !default;
+$nature: rgb(40, 167, 69)  !default;
+$cheese: rgb(255, 255, 0)  !default;
+$orange: rgb(255, 153, 0)  !default;
+$sky:    skyblue;
+$rice:   #eee;
+$osulloc:#DCE775;
+
+// Gray
+$gray:   rgb(108, 117, 125) !default;
+$dark:   rgb(52, 58, 64)    !default;
+
+// Black & White
+$white:  rgb(255, 255, 255) !default;
+$black:  rgb(0, 0, 0)       !default;
+$batman: #222222;
+
+// background color
+$bg-water:  rgba($water, $alpha)  !default;
+$bg-grape:  rgba($grape, $alpha)  !default;
+$bg-blood:  rgba($blood, $alpha)  !default;
+$bg-nature: rgba($nature, $alpha) !default;
+$bg-cheese: rgba($cheese, $alpha) !default;
+$bg-orange: rgba($orange, $beta)  !default;
+$bg-rice:   rgba($rice, $beta)    !default;
+$bg-batman: rgba($batman, $alpha) !default;
+$bg-light:  rgba($gray, $beta)    !default;
+$bg-dark:   rgba($gray, $alpha)   !default;
+
+// default color array
+$default-color: (
+    'water':  $water,
+    'grape':  $grape,
+    'blood':  $blood,
+    'nature': $nature,
+    'cheese': $cheese,
+    'orange': $orange
+);
